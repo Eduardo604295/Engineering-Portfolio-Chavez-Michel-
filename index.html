@@ -1,137 +1,289 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Eduardo Chavez Michel — Mechanical Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Chavez Michel | Mechanical Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="site-header">
+
+<header class="site-header">
     <div class="container header-row">
-      <h1 class="logo">Eduardo Chavez Michel</h1>
-      <nav class="nav">
+
+```
+    <h1 class="logo">
+        Eduardo Chavez Michel
+    </h1>
+
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="#projects">Projects</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+        <a href="future.html">Looking Ahead</a>
         <a href="#contact">Contact</a>
-      </nav>
+    </nav>
+
+</div>
+```
+
+</header>
+
+<section class="hero">
+
+```
+<div class="container hero-grid">
+
+    <div class="hero-content">
+
+        <p class="hero-tag">
+            Mechanical Engineering Student • Arizona State University
+        </p>
+
+        <h2>
+            Designing, Building, and Prototyping the Future
+        </h2>
+
+        <p class="lead">
+            Second-year Mechanical Engineering student with interests in
+            aerospace engineering, space exploration, CAD modeling,
+            engineering design, and rapid prototyping.
+        </p>
+
+        <p class="lead">
+            As a first-generation college student, I am passionate about
+            transforming ideas into real-world solutions through engineering,
+            3D printing, and hands-on design projects.
+        </p>
+
+        <div class="button-row">
+
+            <a href="files/resume.pdf" class="button">
+                Resume
+            </a>
+
+            <a href="https://github.com/Eduardo604295"
+               target="_blank"
+               class="button">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/echavem"
+               target="_blank"
+               class="button">
+                LinkedIn
+            </a>
+
+        </div>
+
     </div>
-  </header>
 
-  <main>
-    <section id="hero" class="hero">
-      <div class="container">
-        <h2>Mechanical Engineering Student</h2>
+    <div class="hero-image">
 
-<p class="lead">
-Arizona State University • Expected Graduation May 2028
-<br>
-SOLIDWORKS • MATLAB • Mechanical Design • Engineering Analysis
-</p>
-      <p class="cta">
-  <a href="#projects" class="button">Projects</a>
-  <a href="files/resume.pdf" class="button">Resume</a>
-  <a href="https://github.com/Eduardo604295" class="button">GitHub</a>
-  <a href="https://www.linkedin.com/in/echavem" class="button">LinkedIn</a>
-</p>
-      </div>
-    </section>
+        <img src="images/profile.jpg"
+             alt="Eduardo Chavez Michel">
 
-    <section id="projects" class="container projects">
-      <h3>Selected Projects</h3>
-      <div class="grid">
-        <article class="card project-card">
-          <img src="images/project1-preview.png" alt="Custom screw-driven clamping mechanism preview" class="project-image" />
-          <div class="card-body">
+    </div>
+
+</div>
+```
+
+</section>
+
+<section class="container interests">
+
+```
+<h3>Interests & Passions</h3>
+
+<div class="interest-grid">
+
+    <div class="interest-card">
+        🚀
+        <h4>Aerospace</h4>
+        <p>Passionate about space exploration and aerospace innovation.</p>
+    </div>
+
+    <div class="interest-card">
+        ⚙️
+        <h4>Mechanical Design</h4>
+        <p>Designing systems that transform concepts into practical solutions.</p>
+    </div>
+
+    <div class="interest-card">
+        🖨️
+        <h4>3D Printing</h4>
+        <p>Rapid prototyping and bringing designs into the physical world.</p>
+    </div>
+
+    <div class="interest-card">
+        📐
+        <h4>CAD Modeling</h4>
+        <p>Creating detailed assemblies and engineering documentation.</p>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section id="projects" class="container">
+
+```
+<h3>Featured Projects</h3>
+
+<div class="grid">
+
+    <article class="card project-card">
+
+        <img src="images/project1-preview.png"
+             alt="Clamp Mechanism"
+             class="project-image">
+
+        <div class="card-body">
+
             <h4>Custom Screw-Driven Clamping Mechanism</h4>
-            <p>Designed and modeled a screw-driven clamping mechanism in SOLIDWORKS that converts rotational input into controlled mechanical motion through a linkage system. Demonstrates CAD modeling, assembly design, and mechanical design principles.</p>
-            <p class="meta">Tools: SOLIDWORKS • CAD • Prototype drawings</p>
-            <p class="links">
-              <a href="files/project1-model.step" target="_blank">Download STEP</a>
-              <span>•</span>
-              <a href="files/project1-report.pdf" target="_blank">Project report (PDF)</a>
-            </p>
-          </div>
-        </article>
 
-        <article class="card project-card">
-          <img src="images/project2-preview.png" alt="Shock assembly preview" class="project-image" />
-          <div class="card-body">
+            <p>
+                Designed a screw-driven linkage mechanism in SOLIDWORKS
+                that converts rotational input into controlled mechanical
+                motion.
+            </p>
+
+            <a href="project1.html" class="button">
+                View Details
+            </a>
+
+        </div>
+
+    </article>
+
+    <article class="card project-card">
+
+        <img src="images/project2-preview.png"
+             alt="Shock Assembly"
+             class="project-image">
+
+        <div class="card-body">
+
             <h4>Shock Assembly Design</h4>
-            <p>Designed and assembled a mechanical shock system in SOLIDWORKS, focusing on component integration, assembly constraints, and engineering design practices. Includes exploded view and BOM.</p>
-            <p class="meta">Tools: SOLIDWORKS • Assembly • BOM</p>
-            <p class="links">
-              <a href="files/project2-assembly.step" target="_blank">Download STEP</a>
-              <span>•</span>
-              <a href="files/project2-report.pdf" target="_blank">Project report (PDF)</a>
+
+            <p>
+                Mechanical assembly project focused on component integration,
+                assembly constraints, and engineering design practices.
             </p>
-          </div>
-        </article>
 
-        <article class="card">
-          <h4>Project 3 — Coming soon</h4>
-          <p>Placeholder for a future project. Upload details and files and this will be added here.</p>
-          <p class="meta">TBD</p>
-        </article>
-      </div>
-    </section>
+            <a href="project2.html" class="button">
+                View Details
+            </a>
 
-    <section id="about" class="container about">
-      <h3>About</h3>
-      <p>I am a mechanical engineering student at Arizona State University with experience in engineering design, CAD modeling, MATLAB programming, and technical problem-solving. Through coursework, leadership roles, and hands-on projects, I have developed strong analytical, teamwork, and project management skills. My interests include mechanical design, engineering analysis, and developing practical solutions through engineering principles. This portfolio highlights academic and personal projects that demonstrate my technical growth and engineering capabilities.</p>
-    </section>
-
-    <section id="skills" class="container skills">
-      <h3>Skills</h3>
-      <div class="skills-grid">
-        <div>
-          <h4>Technical</h4>
-          <ul class="skill-list">
-            <li>SOLIDWORKS</li>
-            <li>MATLAB</li>
-            <li>Mechanical Design</li>
-            <li>CAD Modeling</li>
-            <li>Engineering Analysis</li>
-            <li>Circuit Design</li>
-            <li>Electrical Wiring</li>
-            <li>Lab Instrumentation</li>
-            <li>Engineering Mathematics</li>
-          </ul>
         </div>
 
-        <div>
-          <h4>Professional</h4>
-          <ul class="skill-list">
-            <li>Team Leadership</li>
-            <li>Project Planning</li>
-            <li>Technical Presentations</li>
-            <li>Workflow Optimization</li>
-            <li>Team Collaboration</li>
-            <li>Problem-Solving</li>
-          </ul>
+    </article>
 
-          <h4>Languages</h4>
-          <ul class="skill-list small">
-            <li>English</li>
-            <li>Spanish</li>
-          </ul>
+    <article class="card project-card">
+
+        <div class="card-body">
+
+            <h4>MATLAB Numerical Methods Toolkit</h4>
+
+            <p>
+                Collection of engineering computation tools including
+                Euler's Method, Runge-Kutta, Newton-Raphson, and
+                numerical integration methods.
+            </p>
+
+            <a href="project3.html" class="button">
+                In Development
+            </a>
+
         </div>
-      </div>
-    </section>
 
-    <section id="contact" class="container contact">
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:echave61@asu.edu">echave61@asu.edu</a></p>
-      <p>GitHub: <a href="https://github.com/Eduardo604295" target="_blank">github.com/Eduardo604295</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/echavem" target="_blank">linkedin.com/in/echavem</a></p>
-    </section>
-  </main>
+    </article>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© Eduardo Echave — Mechanical Engineering Student at ASU</p>
-    </div>
-  </footer>
+</div>
+```
+
+</section>
+
+<section class="container about-preview">
+
+```
+<h3>About Me</h3>
+
+<p>
+    I am a Mechanical Engineering student at Arizona State University
+    pursuing a career in aerospace and advanced engineering design.
+    Through coursework, leadership experiences, CAD projects, MATLAB
+    development, and hands-on fabrication, I continue building the
+    technical skills necessary to contribute to future aerospace
+    innovation.
+</p>
+
+<a href="about.html" class="button">
+    Learn More
+</a>
+```
+
+</section>
+
+<section class="container future-preview">
+
+```
+<h3>Looking Ahead</h3>
+
+<p>
+    Current goals include expanding my experience in aerospace systems,
+    advanced CAD design, engineering analysis, 3D printing, and future
+    internship opportunities.
+</p>
+
+<a href="future.html" class="button">
+    View Goals
+</a>
+```
+
+</section>
+
+<section id="contact" class="container">
+
+```
+<h3>Contact</h3>
+
+<p>Email: <a href="mailto:echave61@asu.edu">echave61@asu.edu</a></p>
+
+<p>
+    GitHub:
+    <a href="https://github.com/Eduardo604295" target="_blank">
+        github.com/Eduardo604295
+    </a>
+</p>
+
+<p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/echavem" target="_blank">
+        linkedin.com/in/echavem
+    </a>
+</p>
+```
+
+</section>
+
+<footer class="site-footer">
+
+```
+<div class="container">
+
+    <p>
+        © 2026 Eduardo Chavez Michel
+    </p>
+
+</div>
+```
+
+</footer>
+
 </body>
 </html>
+
