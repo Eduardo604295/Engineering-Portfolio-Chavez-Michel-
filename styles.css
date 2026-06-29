@@ -46,11 +46,17 @@ HEADER
 ========================= */
 
 .site-header{
-background:var(--primary);
-position:sticky;
-top:0;
-z-index:100;
-box-shadow:0 2px 12px rgba(0,0,0,.15);
+    background:#0b1220;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 4px 20px rgba(0,0,0,.2);
+}
+
+.logo{
+    color:white;
+    font-size:1.4rem;
+    font-weight:700;
 }
 
 .header-row{
@@ -193,6 +199,16 @@ transform:translateY(-6px);
 
 .interest-card h4{
 margin:12px 0;
+
+
+.interests{
+    margin-bottom:100px;
+}
+
+#projects{
+    margin-top:20px;
+}
+    
 }
 
 /* =========================
@@ -255,16 +271,21 @@ color:var(--muted);
 .future-preview{
     background:white;
     border-radius:var(--radius);
-    padding:50px;
+    padding:35px;
     box-shadow:var(--shadow);
 
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .about-preview .button,
 .future-preview .button{
     margin-top:25px;
+}
+
+.about-preview p,
+.future-preview p{
+    margin-bottom:25px;
 }
 
 /* =========================
