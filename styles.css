@@ -41,6 +41,8 @@ margin:auto;
 padding:0 24px;
 }
 
+
+
 /* =========================
 HEADER
 ========================= */
@@ -139,6 +141,14 @@ object-fit:cover;
 border-radius:50%;
 border:6px solid white;
 box-shadow:var(--shadow);
+}
+
+.project-hero{
+    background:white;
+    border-radius:16px;
+    padding:40px;
+    box-shadow:var(--shadow);
+    margin:50px 0;
 }
 
 /* =========================
@@ -261,6 +271,14 @@ margin-bottom:12px;
 .card-body p{
 margin-bottom:18px;
 color:var(--muted);
+}
+
+.project-summary{
+    margin-top:35px;
+}
+
+.overview-card p{
+    max-width:900px;
 }
 
 /* =========================
