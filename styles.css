@@ -464,6 +464,8 @@ h3{
     padding-top:120px;
 }  
 
+}
+
   /* ===========================
 PROJECT SUMMARY
 =========================== */
@@ -550,8 +552,4 @@ PROJECT FILES
 .file-button:hover{
     background:var(--accent-hover);
     transform:translateY(-2px);
-}
-
-    
-    
 }
