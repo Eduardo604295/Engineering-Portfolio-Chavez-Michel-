@@ -379,6 +379,33 @@ PROJECT GALLERY
 }
 
 /* =========================
+ENGINEERING HIGHLIGHTS
+========================= */
+
+.skill-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+.skill-tags span{
+    background:white;
+    color:var(--text);
+    padding:14px 22px;
+    border-radius:14px;
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+    font-weight:600;
+    transition:.3s;
+}
+
+.skill-tags span:hover{
+    transform:translateY(-4px);
+}
+
+/* =========================
 MOBILE
 ========================= */
 
@@ -463,32 +490,6 @@ PROJECT SUMMARY
     color:var(--text);
     font-size:.95rem;
 }  
-
-/* =========================
-ENGINEERING HIGHLIGHTS
-========================= */
-
-.skill-tags{
-    display:flex;
-    flex-wrap:wrap;
-    gap:16px;
-    margin-top:30px;
-}
-
-.skill-tags span{
-    background:white;
-    color:var(--text);
-    padding:14px 22px;
-    border-radius:14px;
-    border:1px solid var(--border);
-    box-shadow:var(--shadow);
-    font-weight:600;
-    transition:.3s;
-}
-
-.skill-tags span:hover{
-    transform:translateY(-4px);
-}
 
     
 }
