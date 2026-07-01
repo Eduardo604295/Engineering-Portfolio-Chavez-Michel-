@@ -413,6 +413,37 @@ h3{
 
  .hero{
     padding-top:120px;
-}   
+}  
+
+  /* ===========================
+PROJECT SUMMARY
+=========================== */
+
+.project-summary{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin:40px 0 60px;
+}
+
+.summary-card{
+    background:white;
+    padding:22px;
+    border-radius:16px;
+    box-shadow:var(--shadow);
+    border:1px solid var(--border);
+}
+
+.summary-card h3{
+    font-size:1rem;
+    margin-bottom:10px;
+    color:var(--accent);
+}
+
+.summary-card p{
+    margin:0;
+    color:var(--text);
+    font-size:.95rem;
+}  
 
 }
