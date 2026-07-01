@@ -405,6 +405,10 @@ gap:16px;
     border-color:var(--accent);
 }
 
+.files-section{
+    margin-bottom:80px;
+}
+
 /* =========================
 MOBILE
 ========================= */
