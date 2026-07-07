@@ -282,6 +282,11 @@ h3 {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
+  transition: var(--transition);
+}
+
+.summary-card:hover {
+  transform: translateY(-6px);
 }
 
 .summary-card h3 {
@@ -294,6 +299,14 @@ h3 {
   margin: 0;
   color: var(--text);
   font-size: 0.95rem;
+}
+
+.summary-card p + p {
+  margin-top: 6px;
+}
+
+.summary-card .button {
+  margin-top: 16px;
 }
 
 .overview-card p {
