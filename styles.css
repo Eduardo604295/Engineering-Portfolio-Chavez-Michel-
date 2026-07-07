@@ -202,9 +202,9 @@ h3 {
 
 .interest-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, minmax(220px, 280px));
+  justify-content: center;
   gap: var(--content-gap-desktop);
-  justify-items: center;
 }
 
 .interest-card {
@@ -667,6 +667,11 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .interest-grid {
+    grid-template-columns: repeat(2, minmax(220px, 280px));
+    justify-content: center;
+  }
+
   h3 {
     font-size: 1.8rem;
   }
@@ -741,6 +746,11 @@ h3 {
 
   .skill-tags span {
     text-align: center;
+  }
+
+  .interest-grid {
+    grid-template-columns: minmax(220px, 320px);
+    justify-content: center;
   }
 
   .skill-chips {
