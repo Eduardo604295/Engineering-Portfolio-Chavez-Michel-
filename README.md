@@ -87,7 +87,6 @@ Built a real-time solar output monitoring prototype using analog front-end condi
 ├── project1.html
 ├── project2.html
 ├── project3.html
-├── future.html
 ├── styles.css
 ├── images/
 ├── videos/
